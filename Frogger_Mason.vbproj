@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4DB7B1FF-01B8-41FB-8930-EF3D297D22B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Frogger.My.MyApplication</StartupObject>
+    <RootNamespace>Frogger</RootNamespace>
+    <AssemblyName>Frogger</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SignManifests>false</SignManifests>
+    <ApplicationIcon>frog2GrassUp_32x32.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>48C747D8B2A3BC1904A44B1EB492D643ED575268</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Frogger_Mason_TemporaryKey.pfx</ManifestKeyFile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationVersion>2.5.10.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Frogger.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Frogger.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="DieForm.Designer.vb">
+      <DependentUpon>DieForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DieForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FroggerBrowser.Designer.vb">
+      <DependentUpon>FroggerBrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FroggerBrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm.Designer.vb">
+      <DependentUpon>WinForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DieForm.resx">
+      <DependentUpon>DieForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FroggerBrowser.resx">
+      <DependentUpon>FroggerBrowser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm.resx">
+      <DependentUpon>WinForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2GrassUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\platform.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\water.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\road.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2GrassDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2GrassLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2GrassRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2LogDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2LogLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2LogRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2LogUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2RoadDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2RoadLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2RoadRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2RoadUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2WaterDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2WaterLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2WaterRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\frog2WaterUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loggood.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pics\auditt_lt.bmp" />
+    <None Include="bin\Debug\pics\auditt_rt.bmp" />
+    <None Include="bin\Debug\pics\beastgts.bmp" />
+    <None Include="bin\Debug\pics\beetlelt.bmp" />
+    <None Include="bin\Debug\pics\beetleredlt.bmp" />
+    <None Include="bin\Debug\pics\beetleredrt.bmp" />
+    <None Include="bin\Debug\pics\beetlert.bmp" />
+    <None Include="bin\Debug\pics\bus_lt.bmp" />
+    <None Include="bin\Debug\pics\bus_rt.bmp" />
+    <None Include="bin\Debug\pics\cestrez_lt.bmp" />
+    <None Include="bin\Debug\pics\cestrez_rt.bmp" />
+    <None Include="bin\Debug\pics\coach.bmp" />
+    <None Include="bin\Debug\pics\cossie.bmp" />
+    <None Include="bin\Debug\pics\doublelt.bmp" />
+    <None Include="bin\Debug\pics\doublert.bmp" />
+    <None Include="bin\Debug\pics\fancybug_lt.bmp" />
+    <None Include="bin\Debug\pics\fancybug_rt.bmp" />
+    <None Include="bin\Debug\pics\firetruck_lt.bmp" />
+    <None Include="bin\Debug\pics\firetruck_rt.bmp" />
+    <None Include="bin\Debug\pics\monsterbug_lt.bmp" />
+    <None Include="bin\Debug\pics\monsterbug_rt.bmp" />
+    <None Include="bin\Debug\pics\penetra.bmp" />
+    <None Include="bin\Debug\pics\policeca.bmp" />
+    <None Include="bin\Debug\pics\redtrucklt.bmp" />
+    <None Include="bin\Debug\pics\redtruckrt.bmp" />
+    <None Include="bin\Debug\pics\semi_lt.bmp" />
+    <None Include="bin\Debug\pics\semi_rt.bmp" />
+    <None Include="bin\Debug\pics\stinger.bmp" />
+    <None Include="bin\Debug\pics\stretch_lt.bmp" />
+    <None Include="bin\Debug\pics\stretch_rt.bmp" />
+    <None Include="bin\Debug\pics\tanker_lt.bmp" />
+    <None Include="bin\Debug\pics\tanker_rt.bmp" />
+    <None Include="bin\Debug\pics\u_jack_lt.bmp" />
+    <None Include="bin\Debug\pics\u_jack_rt.bmp" />
+    <None Include="bin\Debug\Sound\frogger.wav" />
+    <None Include="bin\Debug\Sound\Die.wav" />
+    <Content Include="frog2GrassUp_32x32.ico" />
+    <None Include="Resources\Win2.wav" />
+    <None Include="Resources\yeah.wav" />
+    <None Include="Frogger_Mason_TemporaryKey.pfx" />
+    <None Include="Resources\fly.gif" />
+    <None Include="Resources\froggersplat.bmp" />
+    <None Include="Resources\1088621-frogger_large.jpg" />
+    <None Include="Resources\heart1.png" />
+    <None Include="Resources\heart.png" />
+    <None Include="Resources\YouLose.jpg" />
+    <None Include="Resources\monsterbug_rt.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

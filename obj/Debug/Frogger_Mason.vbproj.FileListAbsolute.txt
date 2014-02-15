@@ -1,0 +1,60 @@
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\bin\Debug\Frogger.exe
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\bin\Debug\Frogger.pdb
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\bin\Debug\Frogger.xml
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\ResolveAssemblyReference.cache
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.About.resources
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.DieForm.resources
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.Form1.resources
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.FroggerBrowser.resources
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.Resources.resources
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.SplashScreen.resources
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.WinForm.resources
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger_Mason.vbproj.GenerateResource.Cache
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.exe
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.xml
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.pdb
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.exe
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.xml
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.pdb
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\bin\Debug\Frogger.exe
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\bin\Debug\Frogger.pdb
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\bin\Debug\Frogger.xml
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\ResolveAssemblyReference.cache
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.About.resources
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.DieForm.resources
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.Form1.resources
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.FroggerBrowser.resources
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.Resources.resources
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.SplashScreen.resources
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger.WinForm.resources
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger_Mason.vbproj.GenerateResource.Cache
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\bin\Debug\Interop.WMPLib.dll
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\bin\Debug\AxInterop.WMPLib.dll
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Interop.WMPLib.dll
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\AxInterop.WMPLib.dll
+D:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger_Mason.vbproj.ResolveComReference.cache
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Interop.WMPLib.dll
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\AxInterop.WMPLib.dll
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\obj\Debug\Frogger_Mason.vbproj.ResolveComReference.cache
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\bin\Debug\Interop.WMPLib.dll
+F:\ .Partition1\Camp items\2011\RP4K\Frogger_Mason\Backup\Backup\Frogger_Mason\bin\Debug\AxInterop.WMPLib.dll
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Interop.WMPLib.dll
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\AxInterop.WMPLib.dll
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger_Mason.vbproj.ResolveComReference.cache
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger.exe
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger.xml
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger.pdb
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\ResolveAssemblyReference.cache
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger.About.resources
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger.DieForm.resources
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger.Form1.resources
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger.FroggerBrowser.resources
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger.SplashScreen.resources
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger.WinForm.resources
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger_Mason.vbproj.GenerateResource.Cache
+F:\Camp items\2011\RP4K\Frogger_Mason\bin\Debug\Frogger.exe
+F:\Camp items\2011\RP4K\Frogger_Mason\bin\Debug\Frogger.pdb
+F:\Camp items\2011\RP4K\Frogger_Mason\bin\Debug\Frogger.xml
+F:\Camp items\2011\RP4K\Frogger_Mason\bin\Debug\Interop.WMPLib.dll
+F:\Camp items\2011\RP4K\Frogger_Mason\bin\Debug\AxInterop.WMPLib.dll
+F:\Camp items\2011\RP4K\Frogger_Mason\obj\Debug\Frogger.Resources.resources
